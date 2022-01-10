@@ -97,10 +97,10 @@ export const Calculator = () => {
                           <span id="planResult" /> Minutes plan
                         </td>
                         <td className="px-6 py-4 text-sm text-gray-500">
-                          $ <span id="result" />
+                          <span id="result" />
                         </td>
                         <td className="px-6 py-4 text-md text-gray-500 text-center">
-                          $ <span id="without" />
+                          <span id="without" />
                         </td>
                       </tr>
                     </tbody>

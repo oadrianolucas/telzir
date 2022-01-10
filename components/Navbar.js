@@ -30,30 +30,31 @@ export const Navbar = () => {
               className="block mt-4 lg:inline-block lg:mt-0
               hover:text-gray-400 mr-4"
             >
-              Fale Mais
+              Plans
             </a>
             <a
               href="#compare"
               className="block mt-4 lg:inline-block lg:mt-0
               hover:text-gray-400 mr-4"
             >
-              Ajuda
+              Questions
             </a>
             <a
               href="#deals"
               className="block mt-4 lg:inline-block lg:mt-0
               hover:text-gray-400 mr-4"
             >
-              Por que Telzir
+              Why Telzir?
             </a>
           </div>
-          <button
+          <a
+            href="#compare"
             className="border py-2 px-6 mt-4 rounded-md
             font-semibold text-white border-gray-200 lg:mt-0
             hover:bg-white hover:text-gray-900"
           >
-            Contratar
-          </button>
+            Compare now
+          </a>
         </div>
       </nav>
     </div>

@@ -128,19 +128,35 @@ const calculatorCall = (event) => {
       );
     } else {
       if ($exceedMinute <= 0) {
+        const $resultExcced = 0.0;
         document.getElementById("planResult").textContent = $plan;
         document.getElementById("originResult").textContent = $origin;
         document.getElementById("destinyResult").textContent = $destiny;
         document.getElementById("minuteResult").textContent = $minute;
-        document.getElementById("result").textContent = 0;
-        document.getElementById("without").textContent = $without;
+        document.getElementById("result").textContent =
+          $resultExcced.toLocaleString("en-US", {
+            style: "currency",
+            currency: "USD",
+          });
+        document.getElementById("without").textContent =
+          $without.toLocaleString("en-US", {
+            style: "currency",
+            currency: "USD",
+          });
       } else {
         document.getElementById("planResult").textContent = $plan;
         document.getElementById("originResult").textContent = $origin;
         document.getElementById("destinyResult").textContent = $destiny;
         document.getElementById("minuteResult").textContent = $minute;
-        document.getElementById("result").textContent = $result;
-        document.getElementById("without").textContent = $without;
+        document.getElementById("result").textContent = $result.toLocaleString(
+          "en-US",
+          { style: "currency", currency: "USD" }
+        );
+        document.getElementById("without").textContent =
+          $without.toLocaleString("en-US", {
+            style: "currency",
+            currency: "USD",
+          });
       }
     }
   }
