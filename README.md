@@ -22,4 +22,5 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Deploy on Vercel
 
-Demo: [click here](https://nextjs.org/docs/deployment) for more details.
+Demo: https://telzir-seven.vercel.app/
+Info Demo: [click here](https://nextjs.org/docs/deployment) for more details.
